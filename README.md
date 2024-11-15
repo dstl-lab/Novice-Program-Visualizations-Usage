@@ -39,7 +39,7 @@ Each study session is designed to last a maximum of 60 minutes.
 
 ### Task Notebook Details
 
-Participants were assigned one of four versions of a task notebook. Each notebook contained two sections with three tasks each and a fill-in-the-blank task at the end. The two sections in the same notebook use different but structurally similar dataset. One section provides step-by-step diagrams for the code, while the other section provides default Python output. The three tasks in the two sections correspond one by one, with similar topics and structures. The tasks are randomly shuffled within one section and named with Greek letters.
+The task notebooks used in the study are included in this repository under the folder [`task_notebooks`](./task_notebooks). Participants were assigned one of four versions of a task notebook. Each notebook contained two sections with three tasks each and a fill-in-the-blank task at the end. The two sections in the same notebook use different but structurally similar dataset. One section provides step-by-step diagrams for the code, while the other section provides default Python output. The three tasks in the two sections correspond one by one, with similar topics and structures. The tasks are randomly shuffled within one section and named with Greek letters.
 
 #### Notebook Versions
 
