@@ -58,6 +58,17 @@ The task notebooks used in the study are included in this repository under the f
 | Task 2 | zeta       | gamma        |
 | Task 3 | lambda     | kappa        |
 
+### Interview Questions
+
+Participants were asked the following questions during the interview phase of the study:
+
+1. How did you find the tasks? Were any particularly easy or difficult?  
+2. Did the visualizations help you understand the code better? If yes, how?  
+3. How comfortable do you feel working with code in general?  
+4. Did you have any strategies for approaching the open-ended task?  
+5. Any other feedback, comments, or questions?
+
+
 ### Participant Responses
 
 Participants completed each task at their own pace, verbalizing their thought process. Afterward, they described their understanding of the code and recorded their confidence level in a Google form ([Template](https://docs.google.com/forms/d/e/1FAIpQLSe9Qxz3RSC1ZNapNS1LShJF28lUFAWzCM2njkyKgp0Z4d2iZg/viewform?usp=sharing)).
