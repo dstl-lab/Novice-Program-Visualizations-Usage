@@ -73,6 +73,17 @@ Participants were asked the following questions during the interview phase of th
 
 Participants completed each task at their own pace, verbalizing their thought process. Afterward, they described their understanding of the code and recorded their confidence level in a Google form ([Template](https://docs.google.com/forms/d/e/1FAIpQLSe9Qxz3RSC1ZNapNS1LShJF28lUFAWzCM2njkyKgp0Z4d2iZg/viewform?usp=sharing)).
 
+### Data
+
+[`participant_data.csv`](./participant_data.csv) contains all participant data from the study, including:
+  - **Demographic Information**: Age, year level, current programming courses, and experience with Python and Pandas.
+  - **Task Information**: Task order and correctness scores for each participant.
+  - **Confidence Levels**: Self-reported confidence scores for each task.
+  - **Evaluation Metrics**: Ratings for the usefulness and ease of creating visualizations.
+
+This dataset can be used to reproduce the study's analyses or perform further exploratory research.
+
+
 ## Contact Information
 
 **Sam Lau**  
