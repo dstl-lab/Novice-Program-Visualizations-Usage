@@ -1,32 +1,45 @@
 # Novice Program Visualizations Usage
 
-This repository contains materials for the paper "How Novices Use Program Visualizations to Understand Code
-that Manipulates Data Tables." 
+This repository contains the study materials of the paper, *"How Novices Use Program Visualizations to Understand Code that Manipulates Data Tables."* The study investigates how novices interpret code with visual tool, particularly in tasks involving data table manipulation.
 
-## About
+
+### Key Findings
+
+| Finding                                                             | Description                                                                                                                                                 | Representative Quote                                                                                                                                                                                                                       |
+|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **In-notebook visualizations were usable and useful**               | Participants appreciated that the tool visualized code within their familiar notebook environment, finding it easy to use and useful with minimal instruction. | "Yeah, since you actually do [the groupby and aggregate] step by step, I'm like, oh, I get it." (P4)                                                                                                                                      |
+| **Visualizations helped to verify assumptions**                     | The tool lowered the effort required to visualize intermediate program results, giving novices more confidence in their understanding of code.               | "Good visualization gives me more hints and gives me a clear understanding of what's going on." (P1)                                                                                                                                     |
+| **Revealing normally-hidden table rows can highlight salient information** | Participants noted that the default output only shows the top and bottom rows of a dataframe, while middle rows might contain relevant information.          | "It's not that clear what has happened within each step since there might be 1,010,000 rows of information inside [hidden in the dataframe output]." (P8)                                                                                |
+| **Visualization tools can generate complicated diagrams, but interaction can help users manage cognitive load** | In complex cases, the tool generated diagrams with many visual elements (e.g., arrows), which were overwhelming. However, interactions enabling selective filtering were helpful for understanding. | "I see when you put it like this, it looks very complicated, but as soon as you put the allow hovers, the hovers make it a lot easier." (P11)                                                                                             |
+| **Limitations of the tool**                                         | The tool was better for understanding code rather than writing code because it lacked direct support for debugging.                                          | "I think it's better for checking instead of writing." (P4)                                                                                                                                                                               |
+
+
 
 ## Study Protocol
 
-### Study procedure
+### Procedure
+
+Each study session is designed to last a maximum of 60 minutes.
 
 | Task                          | Time   | Time out of 60 | Description                                                                                             |
 |-------------------------------|--------|----------------|---------------------------------------------------------------------------------------------------------|
-| **Intro**                     | 2-5    | 5              | Introduce the study procedure and reconfirm participants' consent to record. |
-| **Task 1.1**                  | 20     | 5-25          |                                                                                                         |
-| **Task 1.2**                  |        |                |                                                                                                         |
-| **Task 1.3**                  |        |                |                                                                                                         |
-| **20 min total; not all tasks need to be completed.** |   |                | **Hard stop at 20 minutes**                                                                                     |
-| **Task 2.1**                  | 20     | 25-45         |                                                                                                         |
-| **Task 2.2**                  |        |                |                                                                                                         |
-| **Task 2.3**                  |        |                |                                                                                                         |
-| **20 min total; not all tasks need to be completed.**    |   |                | **Hard stop at 20 minutes**                                                                                     |
-| **Task 2.4**                  | 10     | 45            | Fill-in-the-blank coding task.                                                                                             |
-| **Task 40 mins total, may be different depending on participant experience** | | |                                                                                 |
-| **Interview**     | 15     | 60            | Conduct an interview with four prepared questions and collect additional comments. |
+| **Intro**                     | 5    | 5              | Introduce the study procedure and reconfirm participants' consent to record. |
+| **Section 1**                 | 20     | 5–25           | 20 min total; not all tasks need to be completed. **Hard stop at 20 minutes.**                          |
+| **Task 1.1**                  |        |                | Complete task.                                                                                          |
+| **Task 1.2**                  |        |                | Complete task.                                                                                          |
+| **Task 1.3**                  |        |                | Complete task.                                                                                          |
+| **Section 2**                 | 20     | 25–45          | 20 min total; not all tasks need to be completed. **Hard stop at 20 minutes.**                          |
+| **Task 2.1**                  |        |                | Complete task.                                                                                          |
+| **Task 2.2**                  |        |                | Complete task.                                                                                          |
+| **Task 2.3**                  |        |                | Complete task.                                                                                          |
+| **Open-Ended**                | 5     | 45–50             | Fill-in-the-blank coding task. Complete task.                                                           |
+| **Interview**                 | 10     | 60             | Conduct an interview with four prepared questions and collect additional comments. |
 
-### Task notebooks
 
-Participants were assigned one of four versions of the task notebook. A task notebook consists of two sections, each consisting of three tasks, and one fill in the blank task at the end. The two sections in the same notebook use different but structurally similar dataset. One section provides step-by-step diagrams for the code, while the other section provides default Python output. The three tasks in the two sections correspond one by one, with similar topics and structures. The tasks are randomly shuffled within one section and named with Greek letters.
+
+### Task Notebook Details
+
+Participants were assigned one of four versions of a task notebook. Each notebook contained two sections with three tasks each and a fill-in-the-blank task at the end. The two sections in the same notebook use different but structurally similar dataset. One section provides step-by-step diagrams for the code, while the other section provides default Python output. The three tasks in the two sections correspond one by one, with similar topics and structures. The tasks are randomly shuffled within one section and named with Greek letters.
 
 #### Notebook Versions
 
@@ -37,19 +50,19 @@ Participants were assigned one of four versions of the task notebook. A task not
 | C       | Step-By-Step Diagram          | Sales   | Default Output             | Student |
 | D       | Step-By-Step Diagram          | Student | Default Output             | Sales   |
 
-#### Tasks
+#### Task Mapping
 
-| Sales Task | Student Task |
-|------------|--------------|
-| epsilon    | theta        |
-| zeta       | gamma        |
-| lambda     | kappa        |
+| Task   | Sales Task | Student Task |
+|--------|------------|--------------|
+| Task 1 | epsilon    | theta        |
+| Task 2 | zeta       | gamma        |
+| Task 3 | lambda     | kappa        |
 
-### Participant Response Form
+### Participant Responses
 
-Participants were asked to describe their understanding of the code in each of the tasks, then record their description as well as their self-perceived confidence level for the task in a Google form ([Template](https://docs.google.com/forms/d/e/1FAIpQLSe9Qxz3RSC1ZNapNS1LShJF28lUFAWzCM2njkyKgp0Z4d2iZg/viewform?usp=sharing)). 
+Participants completed each task at their own pace, verbalizing their thought process. Afterward, they described their understanding of the code and recorded their confidence level in a Google form ([Template](https://docs.google.com/forms/d/e/1FAIpQLSe9Qxz3RSC1ZNapNS1LShJF28lUFAWzCM2njkyKgp0Z4d2iZg/viewform?usp=sharing)).
 
-## Contact
+## Contact Information
 
 **Sam Lau**  
 GitHub: [@SamLau95](https://github.com/SamLau95)  
@@ -62,7 +75,3 @@ Email: q7zheng@ucsd.edu
 **Qirui Zheng**  
 GitHub: [@Qz07](https://github.com/Qz07)  
 Email: xw001@ucsd.edu  
-
-
-
-## Acknowledgements
